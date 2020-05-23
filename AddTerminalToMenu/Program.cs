@@ -17,7 +17,7 @@ namespace AddTerminalToMenu
             var menu_path = "\\Directory\\Background\\shell";
             var shell_name = "WindowsTerminal";
             //var family_name = "";
-            var Shell_name = @"C:\Program Files (x86)\TerminalShell";
+            var Shell_name = Environment.GetEnvironmentVariable("systemdrive")+@"\Program Files (x86)\TerminalShell";
             var store_path = "ms-windows-store://pdp/?productid=9n0dx20hk701";
             var reg = Registry.CurrentUser.OpenSubKey(Terminal_reg_path, false);
             var names = reg.GetSubKeyNames();
