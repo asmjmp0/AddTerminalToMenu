@@ -1,0 +1,4 @@
+# AddTerminalToMenu
+方便的将WindowsTerminal添加到右键菜单
+
+用管理员权限运行此程序，如果没有装WindowsTerminal按照提示安装。添加完右键菜单如果不想要可以再次启动卸载。
